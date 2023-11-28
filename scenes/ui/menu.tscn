@@ -1,0 +1,53 @@
+[gd_scene load_steps=4 format=3 uid="uid://bbnab3wme4p8r"]
+
+[ext_resource type="Script" path="res://scripts/menu.gd" id="1_gu0ir"]
+[ext_resource type="PackedScene" uid="uid://cccp1i27swt6l" path="res://scenes/ui/bckg_ui_node.tscn" id="1_w2qbx"]
+[ext_resource type="FontFile" uid="uid://3d0ky5eghpsr" path="res://assets/fonts/ModernWarfare-OV7KP.ttf" id="2_t438x"]
+
+[node name="menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_gu0ir")
+
+[node name="bckg_ui_node" parent="." instance=ExtResource("1_w2qbx")]
+position = Vector2(-58, -33)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 2
+offset_left = 250.0
+offset_top = 200.0
+offset_right = 887.0
+offset_bottom = 252.0
+theme_override_fonts/font = ExtResource("2_t438x")
+theme_override_font_sizes/font_size = 60
+text = "Horizons Kosmik"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 454.0
+offset_top = 263.0
+offset_right = 680.0
+offset_bottom = 442.0
+alignment = 1
+
+[node name="jouer" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Jouer"
+
+[node name="tutoriel" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Tutoriel"
+
+[node name="quitter" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Quitter"
+
+[connection signal="pressed" from="VBoxContainer/jouer" to="." method="_on_jouer_pressed"]
+[connection signal="pressed" from="VBoxContainer/tutoriel" to="." method="_on_tutoriel_pressed"]
+[connection signal="pressed" from="VBoxContainer/quitter" to="." method="_on_quitter_pressed"]

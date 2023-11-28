@@ -1,0 +1,253 @@
+[gd_scene load_steps=2 format=3 uid="uid://cgwkakftfwik2"]
+
+[ext_resource type="Texture2D" uid="uid://ewdsqr8xkok2" path="res://assets/Backgrounds/bckg_niv3/Blue.png" id="1_cv8mi"]
+
+[node name="blue_bckg_niv3" type="Node2D"]
+
+[node name="Blue" type="Sprite2D" parent="."]
+position = Vector2(32, 32)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue" type="Sprite2D" parent="Blue"]
+position = Vector2(576, 256)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue2" type="Sprite2D" parent="Blue"]
+position = Vector2(32, 32)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue" type="Sprite2D" parent="Blue/Blue2"]
+position = Vector2(-32, 288)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue" type="Sprite2D" parent="Blue/Blue2/Blue"]
+position = Vector2(64, 0)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue" type="Sprite2D" parent="Blue/Blue2/Blue/Blue"]
+position = Vector2(320, 0)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue2" type="Sprite2D" parent="Blue/Blue2/Blue/Blue"]
+position = Vector2(64, 0)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue" type="Sprite2D" parent="Blue/Blue2/Blue/Blue/Blue2"]
+position = Vector2(320, 0)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue2" type="Sprite2D" parent="Blue/Blue2/Blue/Blue/Blue2"]
+position = Vector2(64, 0)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue" type="Sprite2D" parent="Blue/Blue2/Blue/Blue/Blue2/Blue2"]
+position = Vector2(320, 0)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue" type="Sprite2D" parent="Blue/Blue2/Blue/Blue/Blue2/Blue2/Blue"]
+position = Vector2(64, 0)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue2" type="Sprite2D" parent="."]
+position = Vector2(96, 32)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue3" type="Sprite2D" parent="."]
+position = Vector2(160, 32)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue4" type="Sprite2D" parent="."]
+position = Vector2(224, 32)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue5" type="Sprite2D" parent="."]
+position = Vector2(288, 32)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue6" type="Sprite2D" parent="."]
+position = Vector2(352, 32)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue7" type="Sprite2D" parent="."]
+position = Vector2(416, 32)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue8" type="Sprite2D" parent="."]
+position = Vector2(224, 96)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue9" type="Sprite2D" parent="."]
+position = Vector2(544, 32)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue10" type="Sprite2D" parent="."]
+position = Vector2(608, 32)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue" type="Sprite2D" parent="Blue10"]
+position = Vector2(-576, 64)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue2" type="Sprite2D" parent="Blue10"]
+position = Vector2(-512, 64)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue3" type="Sprite2D" parent="Blue10"]
+position = Vector2(-448, 64)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue5" type="Sprite2D" parent="Blue10"]
+position = Vector2(-320, 64)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue6" type="Sprite2D" parent="Blue10"]
+position = Vector2(-256, 64)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue7" type="Sprite2D" parent="Blue10"]
+position = Vector2(-192, 64)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue9" type="Sprite2D" parent="Blue10"]
+position = Vector2(-64, 64)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue10" type="Sprite2D" parent="Blue10"]
+position = Vector2(0, 64)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue4" type="Sprite2D" parent="Blue10/Blue10"]
+position = Vector2(0, 64)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue8" type="Sprite2D" parent="Blue10/Blue10"]
+position = Vector2(-192, 128)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue13" type="Sprite2D" parent="Blue10/Blue10/Blue8"]
+position = Vector2(64, 0)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue14" type="Sprite2D" parent="Blue10/Blue10/Blue8"]
+position = Vector2(128, 0)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue15" type="Sprite2D" parent="Blue10/Blue10/Blue8"]
+position = Vector2(192, 0)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue13" type="Sprite2D" parent="Blue10/Blue10/Blue8/Blue15"]
+position = Vector2(-576, 64)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue14" type="Sprite2D" parent="Blue10/Blue10/Blue8/Blue15"]
+position = Vector2(-512, 64)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue15" type="Sprite2D" parent="Blue10/Blue10/Blue8/Blue15"]
+position = Vector2(-448, 64)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue13" type="Sprite2D" parent="Blue10/Blue10/Blue8/Blue15/Blue15"]
+position = Vector2(64, 0)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue14" type="Sprite2D" parent="Blue10/Blue10/Blue8/Blue15/Blue15"]
+position = Vector2(128, 0)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue15" type="Sprite2D" parent="Blue10/Blue10/Blue8/Blue15/Blue15"]
+position = Vector2(192, 0)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue13" type="Sprite2D" parent="Blue10/Blue10/Blue8/Blue15/Blue15/Blue15"]
+position = Vector2(64, 0)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue14" type="Sprite2D" parent="Blue10/Blue10/Blue8/Blue15/Blue15/Blue15"]
+position = Vector2(128, 0)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue15" type="Sprite2D" parent="Blue10/Blue10/Blue8/Blue15/Blue15/Blue15"]
+position = Vector2(192, 0)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue" type="Sprite2D" parent="Blue10/Blue10"]
+position = Vector2(-576, 64)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue2" type="Sprite2D" parent="Blue10/Blue10"]
+position = Vector2(-512, 64)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue3" type="Sprite2D" parent="Blue10/Blue10"]
+position = Vector2(-448, 64)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue5" type="Sprite2D" parent="Blue10/Blue10"]
+position = Vector2(-320, 64)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue6" type="Sprite2D" parent="Blue10/Blue10"]
+position = Vector2(-256, 64)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue7" type="Sprite2D" parent="Blue10/Blue10"]
+position = Vector2(-192, 64)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue9" type="Sprite2D" parent="Blue10/Blue10"]
+position = Vector2(-64, 64)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue10" type="Sprite2D" parent="Blue10/Blue10"]
+position = Vector2(0, 64)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue11" type="Sprite2D" parent="."]
+position = Vector2(224, 160)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue" type="Sprite2D" parent="Blue11"]
+position = Vector2(256, 0)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue12" type="Sprite2D" parent="."]
+position = Vector2(480, 32)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue4" type="Sprite2D" parent="Blue12"]
+position = Vector2(0, 64)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue13" type="Sprite2D" parent="."]
+position = Vector2(32, 224)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue14" type="Sprite2D" parent="."]
+position = Vector2(96, 224)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue15" type="Sprite2D" parent="."]
+position = Vector2(160, 224)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue13" type="Sprite2D" parent="Blue15"]
+position = Vector2(64, 0)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue14" type="Sprite2D" parent="Blue15"]
+position = Vector2(128, 0)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue15" type="Sprite2D" parent="Blue15"]
+position = Vector2(192, 0)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue16" type="Sprite2D" parent="."]
+position = Vector2(288, 352)
+texture = ExtResource("1_cv8mi")
+
+[node name="Blue" type="Sprite2D" parent="Blue16"]
+position = Vector2(64, 0)
+texture = ExtResource("1_cv8mi")

@@ -1,0 +1,485 @@
+[gd_scene load_steps=2 format=3 uid="uid://d2vlxcqrfaumb"]
+
+[ext_resource type="Texture2D" uid="uid://ddtn2c7rqgp8" path="res://assets/Backgrounds/bckg_niv3/Yellow.png" id="1_83838"]
+
+[node name="background_niv_3" type="Node2D"]
+
+[node name="Yellow7" type="Sprite2D" parent="."]
+position = Vector2(288, 32)
+texture = ExtResource("1_83838")
+
+[node name="Yellow8" type="Sprite2D" parent="."]
+position = Vector2(352, 32)
+texture = ExtResource("1_83838")
+
+[node name="Yellow4" type="Sprite2D" parent="."]
+position = Vector2(736, 32)
+texture = ExtResource("1_83838")
+
+[node name="Yellow5" type="Sprite2D" parent="."]
+position = Vector2(96, 32)
+texture = ExtResource("1_83838")
+
+[node name="Yellow" type="Sprite2D" parent="."]
+position = Vector2(32, 32)
+texture = ExtResource("1_83838")
+
+[node name="Yellow2" type="Sprite2D" parent="."]
+position = Vector2(416, 32)
+texture = ExtResource("1_83838")
+
+[node name="Yellow3" type="Sprite2D" parent="."]
+position = Vector2(544, 32)
+texture = ExtResource("1_83838")
+
+[node name="Yellow6" type="Sprite2D" parent="."]
+position = Vector2(160, 32)
+texture = ExtResource("1_83838")
+
+[node name="Yellow9" type="Sprite2D" parent="."]
+position = Vector2(224, 32)
+texture = ExtResource("1_83838")
+
+[node name="Yellow10" type="Sprite2D" parent="."]
+position = Vector2(672, 32)
+texture = ExtResource("1_83838")
+
+[node name="Yellow11" type="Sprite2D" parent="."]
+position = Vector2(608, 32)
+texture = ExtResource("1_83838")
+
+[node name="Yellow12" type="Sprite2D" parent="."]
+position = Vector2(480, 32)
+texture = ExtResource("1_83838")
+
+[node name="Yellow13" type="Sprite2D" parent="."]
+position = Vector2(800, 32)
+texture = ExtResource("1_83838")
+
+[node name="Yellow15" type="Sprite2D" parent="."]
+position = Vector2(288, 96)
+texture = ExtResource("1_83838")
+
+[node name="Yellow16" type="Sprite2D" parent="."]
+position = Vector2(352, 96)
+texture = ExtResource("1_83838")
+
+[node name="Yellow17" type="Sprite2D" parent="."]
+position = Vector2(736, 96)
+texture = ExtResource("1_83838")
+
+[node name="Yellow18" type="Sprite2D" parent="."]
+position = Vector2(96, 96)
+texture = ExtResource("1_83838")
+
+[node name="Yellow19" type="Sprite2D" parent="."]
+position = Vector2(32, 96)
+texture = ExtResource("1_83838")
+
+[node name="Yellow20" type="Sprite2D" parent="."]
+position = Vector2(416, 96)
+texture = ExtResource("1_83838")
+
+[node name="Yellow21" type="Sprite2D" parent="."]
+position = Vector2(544, 96)
+texture = ExtResource("1_83838")
+
+[node name="Yellow22" type="Sprite2D" parent="."]
+position = Vector2(160, 96)
+texture = ExtResource("1_83838")
+
+[node name="Yellow23" type="Sprite2D" parent="."]
+position = Vector2(224, 96)
+texture = ExtResource("1_83838")
+
+[node name="Yellow24" type="Sprite2D" parent="."]
+position = Vector2(672, 96)
+texture = ExtResource("1_83838")
+
+[node name="Yellow25" type="Sprite2D" parent="."]
+position = Vector2(608, 96)
+texture = ExtResource("1_83838")
+
+[node name="Yellow26" type="Sprite2D" parent="."]
+position = Vector2(480, 96)
+texture = ExtResource("1_83838")
+
+[node name="Yellow27" type="Sprite2D" parent="."]
+position = Vector2(800, 96)
+texture = ExtResource("1_83838")
+
+[node name="Yellow28" type="Sprite2D" parent="."]
+position = Vector2(864, 96)
+texture = ExtResource("1_83838")
+
+[node name="Yellow15" type="Sprite2D" parent="Yellow28"]
+position = Vector2(-576, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow16" type="Sprite2D" parent="Yellow28"]
+position = Vector2(-512, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow17" type="Sprite2D" parent="Yellow28"]
+position = Vector2(-128, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow18" type="Sprite2D" parent="Yellow28"]
+position = Vector2(-768, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow19" type="Sprite2D" parent="Yellow28"]
+position = Vector2(-832, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow20" type="Sprite2D" parent="Yellow28"]
+position = Vector2(-448, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow21" type="Sprite2D" parent="Yellow28"]
+position = Vector2(-320, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow22" type="Sprite2D" parent="Yellow28"]
+position = Vector2(-704, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow23" type="Sprite2D" parent="Yellow28"]
+position = Vector2(-640, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow24" type="Sprite2D" parent="Yellow28"]
+position = Vector2(-192, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow25" type="Sprite2D" parent="Yellow28"]
+position = Vector2(-256, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow26" type="Sprite2D" parent="Yellow28"]
+position = Vector2(-384, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow27" type="Sprite2D" parent="Yellow28"]
+position = Vector2(-64, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow28" type="Sprite2D" parent="Yellow28"]
+position = Vector2(0, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow15" type="Sprite2D" parent="Yellow28/Yellow28"]
+position = Vector2(-576, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow16" type="Sprite2D" parent="Yellow28/Yellow28"]
+position = Vector2(-512, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow17" type="Sprite2D" parent="Yellow28/Yellow28"]
+position = Vector2(-128, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow18" type="Sprite2D" parent="Yellow28/Yellow28"]
+position = Vector2(-768, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow19" type="Sprite2D" parent="Yellow28/Yellow28"]
+position = Vector2(-832, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow20" type="Sprite2D" parent="Yellow28/Yellow28"]
+position = Vector2(-448, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow21" type="Sprite2D" parent="Yellow28/Yellow28"]
+position = Vector2(-320, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow22" type="Sprite2D" parent="Yellow28/Yellow28"]
+position = Vector2(-704, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow23" type="Sprite2D" parent="Yellow28/Yellow28"]
+position = Vector2(-640, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow24" type="Sprite2D" parent="Yellow28/Yellow28"]
+position = Vector2(-192, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow25" type="Sprite2D" parent="Yellow28/Yellow28"]
+position = Vector2(-256, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow26" type="Sprite2D" parent="Yellow28/Yellow28"]
+position = Vector2(-384, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow27" type="Sprite2D" parent="Yellow28/Yellow28"]
+position = Vector2(-64, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow28" type="Sprite2D" parent="Yellow28/Yellow28"]
+position = Vector2(0, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow15" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28"]
+position = Vector2(-576, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow16" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28"]
+position = Vector2(-512, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow17" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28"]
+position = Vector2(-128, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow18" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28"]
+position = Vector2(-768, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow19" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28"]
+position = Vector2(-832, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow20" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28"]
+position = Vector2(-448, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow21" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28"]
+position = Vector2(-320, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow22" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28"]
+position = Vector2(-704, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow23" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28"]
+position = Vector2(-640, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow24" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28"]
+position = Vector2(-192, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow25" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28"]
+position = Vector2(-256, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow26" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28"]
+position = Vector2(-384, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow27" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28"]
+position = Vector2(-64, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow28" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28"]
+position = Vector2(0, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow15" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-576, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow16" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-512, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow17" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-128, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow18" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-768, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow19" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-832, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow20" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-448, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow21" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-320, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow22" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-704, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow23" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-640, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow24" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-192, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow25" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-256, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow26" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-384, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow27" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-64, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow28" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(0, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow15" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-576, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow16" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-512, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow17" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-128, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow18" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-768, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow19" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-832, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow20" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-448, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow21" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-320, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow22" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-704, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow23" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-640, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow24" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-192, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow25" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-256, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow26" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-384, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow27" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(-64, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow28" type="Sprite2D" parent="Yellow28/Yellow28/Yellow28/Yellow28/Yellow28"]
+position = Vector2(0, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow30" type="Sprite2D" parent="."]
+position = Vector2(864, 32)
+texture = ExtResource("1_83838")
+
+[node name="Yellow30" type="Sprite2D" parent="Yellow30"]
+position = Vector2(64, 0)
+texture = ExtResource("1_83838")
+
+[node name="Yellow30" type="Sprite2D" parent="Yellow30/Yellow30"]
+position = Vector2(0, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow30" type="Sprite2D" parent="Yellow30/Yellow30/Yellow30"]
+position = Vector2(0, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow30" type="Sprite2D" parent="Yellow30/Yellow30/Yellow30/Yellow30"]
+position = Vector2(0, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow30" type="Sprite2D" parent="Yellow30/Yellow30/Yellow30/Yellow30/Yellow30"]
+position = Vector2(0, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow31" type="Sprite2D" parent="Yellow30/Yellow30"]
+position = Vector2(-576, 448)
+texture = ExtResource("1_83838")
+
+[node name="Yellow32" type="Sprite2D" parent="Yellow30/Yellow30/Yellow31"]
+position = Vector2(384, 0)
+texture = ExtResource("1_83838")
+
+[node name="Yellow31" type="Sprite2D" parent="Yellow30/Yellow30/Yellow31"]
+position = Vector2(512, 0)
+texture = ExtResource("1_83838")
+
+[node name="Yellow30" type="Sprite2D" parent="Yellow30/Yellow30/Yellow31"]
+position = Vector2(64, 0)
+texture = ExtResource("1_83838")
+
+[node name="Yellow30" type="Sprite2D" parent="Yellow30/Yellow30/Yellow31/Yellow30"]
+position = Vector2(64, 0)
+texture = ExtResource("1_83838")
+
+[node name="Yellow32" type="Sprite2D" parent="Yellow30/Yellow30/Yellow31/Yellow30/Yellow30"]
+position = Vector2(192, 0)
+texture = ExtResource("1_83838")
+
+[node name="Yellow31" type="Sprite2D" parent="Yellow30/Yellow30/Yellow31/Yellow30/Yellow30"]
+position = Vector2(320, 0)
+texture = ExtResource("1_83838")
+
+[node name="Yellow30" type="Sprite2D" parent="Yellow30/Yellow30/Yellow31/Yellow30/Yellow30"]
+position = Vector2(64, 0)
+texture = ExtResource("1_83838")
+
+[node name="Yellow30" type="Sprite2D" parent="Yellow30/Yellow30/Yellow31/Yellow30/Yellow30/Yellow30"]
+position = Vector2(64, 0)
+texture = ExtResource("1_83838")
+
+[node name="Yellow31" type="Sprite2D" parent="Yellow30/Yellow30/Yellow31/Yellow30"]
+position = Vector2(512, 0)
+texture = ExtResource("1_83838")
+
+[node name="Yellow32" type="Sprite2D" parent="Yellow30/Yellow30"]
+position = Vector2(-640, 448)
+texture = ExtResource("1_83838")
+
+[node name="Yellow33" type="Sprite2D" parent="Yellow30/Yellow30"]
+position = Vector2(0, 320)
+texture = ExtResource("1_83838")
+
+[node name="Yellow30" type="Sprite2D" parent="Yellow30/Yellow30/Yellow33"]
+position = Vector2(0, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow30" type="Sprite2D" parent="Yellow30/Yellow30/Yellow33/Yellow30"]
+position = Vector2(-896, 64)
+texture = ExtResource("1_83838")
+
+[node name="Yellow30" type="Sprite2D" parent="Yellow30/Yellow30/Yellow33/Yellow30/Yellow30"]
+position = Vector2(64, 0)
+texture = ExtResource("1_83838")
+
+[node name="Yellow30" type="Sprite2D" parent="Yellow30/Yellow30/Yellow33/Yellow30/Yellow30/Yellow30"]
+position = Vector2(64, 0)
+texture = ExtResource("1_83838")
+
+[node name="Yellow30" type="Sprite2D" parent="Yellow30/Yellow30/Yellow33/Yellow30/Yellow30/Yellow30/Yellow30"]
+position = Vector2(64, 0)
+texture = ExtResource("1_83838")

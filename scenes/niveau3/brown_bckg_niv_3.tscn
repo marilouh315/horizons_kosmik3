@@ -1,0 +1,285 @@
+[gd_scene load_steps=2 format=3 uid="uid://cxjtiryarj866"]
+
+[ext_resource type="Texture2D" uid="uid://dv86qwrd06au0" path="res://assets/Backgrounds/bckg_niv3/Brown.png" id="1_e52m5"]
+
+[node name="brown_bckg_niv3" type="Node2D"]
+
+[node name="Brown" type="Sprite2D" parent="."]
+position = Vector2(32, 32)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown" type="Sprite2D" parent="Brown"]
+position = Vector2(576, 0)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown" type="Sprite2D" parent="Brown/Brown"]
+position = Vector2(0, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown" type="Sprite2D" parent="Brown/Brown/Brown"]
+position = Vector2(0, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown" type="Sprite2D" parent="Brown/Brown/Brown/Brown"]
+position = Vector2(0, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown" type="Sprite2D" parent="Brown/Brown/Brown/Brown/Brown"]
+position = Vector2(-128, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown2" type="Sprite2D" parent="."]
+position = Vector2(96, 32)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown3" type="Sprite2D" parent="."]
+position = Vector2(32, 96)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown4" type="Sprite2D" parent="."]
+position = Vector2(96, 96)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown5" type="Sprite2D" parent="."]
+position = Vector2(160, 32)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown6" type="Sprite2D" parent="."]
+position = Vector2(160, 96)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown7" type="Sprite2D" parent="."]
+position = Vector2(224, 32)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown8" type="Sprite2D" parent="."]
+position = Vector2(224, 96)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown9" type="Sprite2D" parent="."]
+position = Vector2(288, 32)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown10" type="Sprite2D" parent="."]
+position = Vector2(288, 96)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown11" type="Sprite2D" parent="."]
+position = Vector2(352, 32)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown12" type="Sprite2D" parent="."]
+position = Vector2(352, 96)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown13" type="Sprite2D" parent="."]
+position = Vector2(416, 32)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown14" type="Sprite2D" parent="."]
+position = Vector2(416, 96)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown15" type="Sprite2D" parent="."]
+position = Vector2(480, 32)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown16" type="Sprite2D" parent="."]
+position = Vector2(480, 96)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown17" type="Sprite2D" parent="."]
+position = Vector2(32, 160)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown18" type="Sprite2D" parent="."]
+position = Vector2(96, 160)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown19" type="Sprite2D" parent="."]
+position = Vector2(160, 160)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown20" type="Sprite2D" parent="."]
+position = Vector2(224, 160)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown21" type="Sprite2D" parent="."]
+position = Vector2(288, 160)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown22" type="Sprite2D" parent="."]
+position = Vector2(352, 160)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown23" type="Sprite2D" parent="."]
+position = Vector2(416, 160)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown24" type="Sprite2D" parent="."]
+position = Vector2(480, 160)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown25" type="Sprite2D" parent="."]
+position = Vector2(544, 32)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown" type="Sprite2D" parent="Brown25"]
+position = Vector2(-512, 192)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown2" type="Sprite2D" parent="Brown25"]
+position = Vector2(-448, 192)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown5" type="Sprite2D" parent="Brown25"]
+position = Vector2(-384, 192)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown7" type="Sprite2D" parent="Brown25"]
+position = Vector2(-320, 192)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown9" type="Sprite2D" parent="Brown25"]
+position = Vector2(-256, 192)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown11" type="Sprite2D" parent="Brown25"]
+position = Vector2(-192, 192)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown13" type="Sprite2D" parent="Brown25"]
+position = Vector2(-128, 192)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown15" type="Sprite2D" parent="Brown25"]
+position = Vector2(-64, 192)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown25" type="Sprite2D" parent="Brown25"]
+position = Vector2(0, 192)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown" type="Sprite2D" parent="Brown25/Brown25"]
+position = Vector2(-512, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown2" type="Sprite2D" parent="Brown25/Brown25"]
+position = Vector2(-448, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown5" type="Sprite2D" parent="Brown25/Brown25"]
+position = Vector2(-384, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown7" type="Sprite2D" parent="Brown25/Brown25"]
+position = Vector2(-320, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown9" type="Sprite2D" parent="Brown25/Brown25"]
+position = Vector2(-256, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown11" type="Sprite2D" parent="Brown25/Brown25"]
+position = Vector2(-192, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown13" type="Sprite2D" parent="Brown25/Brown25"]
+position = Vector2(-128, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown15" type="Sprite2D" parent="Brown25/Brown25"]
+position = Vector2(0, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown25" type="Sprite2D" parent="Brown25/Brown25"]
+position = Vector2(64, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown3" type="Sprite2D" parent="Brown25"]
+position = Vector2(-512, 320)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown" type="Sprite2D" parent="Brown25/Brown3"]
+position = Vector2(576, 0)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown" type="Sprite2D" parent="Brown25/Brown3/Brown"]
+position = Vector2(0, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown4" type="Sprite2D" parent="Brown25"]
+position = Vector2(-448, 320)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown6" type="Sprite2D" parent="Brown25"]
+position = Vector2(-384, 320)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown8" type="Sprite2D" parent="Brown25"]
+position = Vector2(-320, 320)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown10" type="Sprite2D" parent="Brown25"]
+position = Vector2(-256, 320)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown12" type="Sprite2D" parent="Brown25"]
+position = Vector2(-192, 320)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown14" type="Sprite2D" parent="Brown25"]
+position = Vector2(-128, 320)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown16" type="Sprite2D" parent="Brown25"]
+position = Vector2(-64, 320)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown26" type="Sprite2D" parent="Brown25"]
+position = Vector2(0, 320)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown" type="Sprite2D" parent="Brown25/Brown26"]
+position = Vector2(-448, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown2" type="Sprite2D" parent="Brown25/Brown26"]
+position = Vector2(-384, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown5" type="Sprite2D" parent="Brown25/Brown26"]
+position = Vector2(-320, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown7" type="Sprite2D" parent="Brown25/Brown26"]
+position = Vector2(-256, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown9" type="Sprite2D" parent="Brown25/Brown26"]
+position = Vector2(-192, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown11" type="Sprite2D" parent="Brown25/Brown26"]
+position = Vector2(-128, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown13" type="Sprite2D" parent="Brown25/Brown26"]
+position = Vector2(-512, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown15" type="Sprite2D" parent="Brown25/Brown26"]
+position = Vector2(-64, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown25" type="Sprite2D" parent="Brown25/Brown26"]
+position = Vector2(0, 64)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown26" type="Sprite2D" parent="."]
+position = Vector2(544, 96)
+texture = ExtResource("1_e52m5")
+
+[node name="Brown27" type="Sprite2D" parent="."]
+position = Vector2(544, 160)
+texture = ExtResource("1_e52m5")

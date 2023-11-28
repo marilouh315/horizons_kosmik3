@@ -1,0 +1,107 @@
+[gd_scene load_steps=16 format=3 uid="uid://7pawiu03daii"]
+
+[ext_resource type="Script" path="res://scripts/coeurs.gd" id="1_k2aqx"]
+[ext_resource type="Texture2D" uid="uid://drvlvjwuewrih" path="res://assets/Objets/Big Heart Idle (18x14).png" id="1_vqnr7"]
+[ext_resource type="Texture2D" uid="uid://c2jju5ol4oe4h" path="res://assets/Objets/Big Heart Hit (18x14).png" id="2_bypdc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0uce3"]
+atlas = ExtResource("1_vqnr7")
+region = Rect2(0, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l7qay"]
+atlas = ExtResource("1_vqnr7")
+region = Rect2(18, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q527b"]
+atlas = ExtResource("1_vqnr7")
+region = Rect2(36, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yqf68"]
+atlas = ExtResource("1_vqnr7")
+region = Rect2(54, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0c1nc"]
+atlas = ExtResource("1_vqnr7")
+region = Rect2(72, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v6t11"]
+atlas = ExtResource("1_vqnr7")
+region = Rect2(90, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k50qh"]
+atlas = ExtResource("1_vqnr7")
+region = Rect2(108, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m6lcn"]
+atlas = ExtResource("1_vqnr7")
+region = Rect2(126, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_myp0g"]
+atlas = ExtResource("2_bypdc")
+region = Rect2(0, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n5jlf"]
+atlas = ExtResource("2_bypdc")
+region = Rect2(18, 0, 18, 14)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jerbe"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0uce3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l7qay")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q527b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yqf68")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0c1nc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v6t11")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k50qh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m6lcn")
+}],
+"loop": true,
+"name": &"heart_idle",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_myp0g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n5jlf")
+}],
+"loop": true,
+"name": &"heart_touche",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_4tben"]
+radius = 6.0
+
+[node name="coeurs" type="Area2D" groups=["Coeurs"]]
+collision_layer = 0
+script = ExtResource("1_k2aqx")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_jerbe")
+animation = &"heart_idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(4, 0)
+scale = Vector2(2, 2)
+shape = SubResource("CircleShape2D_4tben")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

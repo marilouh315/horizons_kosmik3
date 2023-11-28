@@ -1,0 +1,104 @@
+[gd_scene load_steps=16 format=3 uid="uid://dalsnnlrqqb5q"]
+
+[ext_resource type="Texture2D" uid="uid://h52fg0kc81bk" path="res://assets/Pixel Adventure 1/Free/Main Characters/Virtual Guy/Run (32x32).png" id="1_ax5fn"]
+[ext_resource type="Script" path="res://scripts/joueur_ui.gd" id="1_eytbt"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f5njq"]
+atlas = ExtResource("1_ax5fn")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mui7d"]
+atlas = ExtResource("1_ax5fn")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oadgo"]
+atlas = ExtResource("1_ax5fn")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_85phu"]
+atlas = ExtResource("1_ax5fn")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4cykh"]
+atlas = ExtResource("1_ax5fn")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8g51l"]
+atlas = ExtResource("1_ax5fn")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gsjlh"]
+atlas = ExtResource("1_ax5fn")
+region = Rect2(192, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_48gs6"]
+atlas = ExtResource("1_ax5fn")
+region = Rect2(224, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ev343"]
+atlas = ExtResource("1_ax5fn")
+region = Rect2(256, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pe543"]
+atlas = ExtResource("1_ax5fn")
+region = Rect2(288, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kvvg7"]
+atlas = ExtResource("1_ax5fn")
+region = Rect2(320, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5ad1o"]
+atlas = ExtResource("1_ax5fn")
+region = Rect2(352, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3d16b"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f5njq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mui7d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oadgo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_85phu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4cykh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8g51l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gsjlh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_48gs6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ev343")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pe543")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kvvg7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5ad1o")
+}],
+"loop": true,
+"name": &"courrir",
+"speed": 12.0
+}]
+
+[node name="joueur_ui" type="CharacterBody2D"]
+script = ExtResource("1_eytbt")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_3d16b")
+animation = &"courrir"

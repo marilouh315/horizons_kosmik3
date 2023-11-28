@@ -1,0 +1,126 @@
+[gd_scene load_steps=14 format=3 uid="uid://ugdeb8mdc5qu"]
+
+[ext_resource type="PackedScene" uid="uid://dg61kpas67lnv" path="res://scenes/niveau3/tilemap_niv3.tscn" id="1_2in2q"]
+[ext_resource type="PackedScene" uid="uid://d2vlxcqrfaumb" path="res://scenes/niveau3/yellow_bckg_niv3.tscn" id="1_8sbws"]
+[ext_resource type="PackedScene" uid="uid://cl2vftwq8nvns" path="res://scenes/niveau3/gray_bckg_niv_3.tscn" id="1_h8723"]
+[ext_resource type="PackedScene" uid="uid://cxjtiryarj866" path="res://scenes/niveau3/brown_bckg_niv_3.tscn" id="1_mojox"]
+[ext_resource type="Script" path="res://scripts/niveau_3.gd" id="1_qr80b"]
+[ext_resource type="PackedScene" uid="uid://i4i2n43neb2b" path="res://scenes/niveau3/green_bckg_niv_3.tscn" id="1_u05ij"]
+[ext_resource type="PackedScene" uid="uid://co68jsl2uymt8" path="res://scenes/niveau3/purple_bckg_niv_3.tscn" id="1_vi5gk"]
+[ext_resource type="PackedScene" uid="uid://cgwkakftfwik2" path="res://scenes/niveau3/blue_bckg_niv_3.tscn" id="2_tp0xp"]
+[ext_resource type="PackedScene" uid="uid://cpd7qsu6fiuyr" path="res://scenes/niveau3/pink_bckg_niv_3.tscn" id="2_vk33l"]
+[ext_resource type="PackedScene" uid="uid://co8u22se1j3ty" path="res://scenes/objets/fruits.tscn" id="9_08g18"]
+[ext_resource type="PackedScene" uid="uid://7pawiu03daii" path="res://scenes/objets/coeurs.tscn" id="10_d5ado"]
+[ext_resource type="PackedScene" uid="uid://dm3erp5h3ecqa" path="res://scenes/objets/spaceship_niv_3.tscn" id="11_bp33r"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_j5ist"]
+radius = 102.044
+
+[node name="niveau3" type="Node2D"]
+script = ExtResource("1_qr80b")
+
+[node name="purple_bckg_niv3" parent="." instance=ExtResource("1_vi5gk")]
+position = Vector2(4267, -36)
+scale = Vector2(1.5, 1.5)
+
+[node name="gray_bckg_niv3" parent="." instance=ExtResource("1_h8723")]
+position = Vector2(6421, -53)
+scale = Vector2(1.8, 1.8)
+
+[node name="pink_bckg_niv3" parent="." instance=ExtResource("2_vk33l")]
+position = Vector2(5331, -22)
+scale = Vector2(1.5, 1.5)
+
+[node name="green_bckg_niv3" parent="." instance=ExtResource("1_u05ij")]
+position = Vector2(3010, -34)
+
+[node name="background_niv_3" parent="." instance=ExtResource("1_8sbws")]
+position = Vector2(-85, -35)
+
+[node name="blue_bckg_niv3" parent="." instance=ExtResource("2_tp0xp")]
+position = Vector2(1973, -19)
+scale = Vector2(1.32, 1.32)
+
+[node name="brown_bckg_niv3" parent="." instance=ExtResource("1_mojox")]
+position = Vector2(1048, -43)
+scale = Vector2(1.2, 1.2)
+
+[node name="blue_bckg_niv3-2" parent="." instance=ExtResource("2_tp0xp")]
+position = Vector2(7727, -28)
+scale = Vector2(1.7424, 1.7424)
+
+[node name="TileMap" parent="." instance=ExtResource("1_2in2q")]
+rotation = 0.00227341
+
+[node name="spaceship_niv3" parent="." instance=ExtResource("11_bp33r")]
+position = Vector2(8278, 269)
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="spaceship_niv3"]
+position = Vector2(1, -7)
+shape = SubResource("CircleShape2D_j5ist")
+
+[node name="fruits" parent="." instance=ExtResource("9_08g18")]
+position = Vector2(699, 51)
+
+[node name="fruits2" parent="." instance=ExtResource("9_08g18")]
+position = Vector2(63, 66)
+
+[node name="fruits3" parent="." instance=ExtResource("9_08g18")]
+position = Vector2(1730, 42)
+
+[node name="fruits4" parent="." instance=ExtResource("9_08g18")]
+position = Vector2(1445, 246)
+
+[node name="fruits5" parent="." instance=ExtResource("9_08g18")]
+position = Vector2(2042, 56)
+
+[node name="fruits6" parent="." instance=ExtResource("9_08g18")]
+position = Vector2(2765, 248)
+
+[node name="fruits7" parent="." instance=ExtResource("9_08g18")]
+position = Vector2(3766, 65)
+
+[node name="fruits8" parent="." instance=ExtResource("9_08g18")]
+position = Vector2(3111, 219)
+
+[node name="fruits9" parent="." instance=ExtResource("9_08g18")]
+position = Vector2(4477, 155)
+
+[node name="fruits10" parent="." instance=ExtResource("9_08g18")]
+position = Vector2(4974, 329)
+
+[node name="fruits11" parent="." instance=ExtResource("9_08g18")]
+position = Vector2(5392, 186)
+
+[node name="fruits12" parent="." instance=ExtResource("9_08g18")]
+position = Vector2(6014, 207)
+
+[node name="fruits13" parent="." instance=ExtResource("9_08g18")]
+position = Vector2(7384, 157)
+
+[node name="fruits14" parent="." instance=ExtResource("9_08g18")]
+position = Vector2(6915, 66)
+
+[node name="coeurs" parent="." instance=ExtResource("10_d5ado")]
+position = Vector2(613, 63)
+
+[node name="coeurs2" parent="." instance=ExtResource("10_d5ado")]
+position = Vector2(1690, 39)
+
+[node name="coeurs3" parent="." instance=ExtResource("10_d5ado")]
+position = Vector2(2759, 194)
+
+[node name="coeurs4" parent="." instance=ExtResource("10_d5ado")]
+position = Vector2(3530, 277)
+
+[node name="coeurs5" parent="." instance=ExtResource("10_d5ado")]
+position = Vector2(4777, 120)
+
+[node name="coeurs6" parent="." instance=ExtResource("10_d5ado")]
+position = Vector2(5790, 458)
+
+[node name="coeurs7" parent="." instance=ExtResource("10_d5ado")]
+position = Vector2(7334, 153)
+
+[connection signal="body_entered" from="spaceship_niv3" to="." method="_on_spaceship_niv_3_body_entered"]
+[connection signal="body_exited" from="spaceship_niv3" to="." method="_on_spaceship_niv_3_body_exited"]

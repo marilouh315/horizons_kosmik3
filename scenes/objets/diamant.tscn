@@ -1,0 +1,119 @@
+[gd_scene load_steps=18 format=3 uid="uid://b24kwh8kisgj"]
+
+[ext_resource type="Script" path="res://scripts/diamant.gd" id="1_3kvwr"]
+[ext_resource type="Texture2D" uid="uid://5jw4vjo2ruoo" path="res://assets/Objets/Big Diamond Idle (18x14).png" id="1_u1ks6"]
+[ext_resource type="Texture2D" uid="uid://dxfh8my2w5tgm" path="res://assets/Objets/Big Diamond Hit (18x14).png" id="2_eblyy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_78l4p"]
+atlas = ExtResource("1_u1ks6")
+region = Rect2(0, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gpx3h"]
+atlas = ExtResource("1_u1ks6")
+region = Rect2(18, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mvetk"]
+atlas = ExtResource("1_u1ks6")
+region = Rect2(36, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8q550"]
+atlas = ExtResource("1_u1ks6")
+region = Rect2(54, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_npupt"]
+atlas = ExtResource("1_u1ks6")
+region = Rect2(72, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cnsoj"]
+atlas = ExtResource("1_u1ks6")
+region = Rect2(90, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t3hs0"]
+atlas = ExtResource("1_u1ks6")
+region = Rect2(108, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_st1oq"]
+atlas = ExtResource("1_u1ks6")
+region = Rect2(126, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5q2i7"]
+atlas = ExtResource("1_u1ks6")
+region = Rect2(144, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x4twv"]
+atlas = ExtResource("1_u1ks6")
+region = Rect2(162, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3hfcj"]
+atlas = ExtResource("2_eblyy")
+region = Rect2(0, 0, 18, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xu5um"]
+atlas = ExtResource("2_eblyy")
+region = Rect2(18, 0, 18, 14)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_owrj2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_78l4p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gpx3h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mvetk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8q550")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_npupt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cnsoj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t3hs0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_st1oq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5q2i7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x4twv")
+}],
+"loop": true,
+"name": &"diamant_idle",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3hfcj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xu5um")
+}],
+"loop": true,
+"name": &"diamant_touche",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_j6oo2"]
+radius = 13.0
+
+[node name="diamant" type="Area2D" groups=["Diamants"]]
+script = ExtResource("1_3kvwr")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(2.5, 2.5)
+sprite_frames = SubResource("SpriteFrames_owrj2")
+animation = &"diamant_idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(5, -1)
+shape = SubResource("CircleShape2D_j6oo2")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

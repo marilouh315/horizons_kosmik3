@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://d014vgxvr7gof"]
+
+[ext_resource type="Texture2D" uid="uid://t3s53n78n153" path="res://assets/Backgrounds/space/Purple_Nebula_07-1024x1024.png" id="1_br1mo"]
+
+[node name="space_bckg" type="Node2D"]
+position = Vector2(1, -72)
+
+[node name="PurpleNebula07-1024x1024" type="Sprite2D" parent="."]
+position = Vector2(577.5, 374)
+scale = Vector2(1.12402, 1)
+texture = ExtResource("1_br1mo")

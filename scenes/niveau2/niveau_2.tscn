@@ -1,0 +1,53 @@
+[gd_scene load_steps=8 format=3 uid="uid://c6yjphch2d8sh"]
+
+[ext_resource type="Script" path="res://scripts/niveau_2.gd" id="1_1muh3"]
+[ext_resource type="PackedScene" uid="uid://dkt4vlpvggc1h" path="res://scenes/niveau2/background_niv_2.tscn" id="1_upflr"]
+[ext_resource type="PackedScene" uid="uid://martn1vlkusw" path="res://scenes/niveau2/tilemap_niv2.tscn" id="1_x7h3l"]
+[ext_resource type="PackedScene" uid="uid://b24kwh8kisgj" path="res://scenes/objets/diamant.tscn" id="3_6aog3"]
+[ext_resource type="PackedScene" uid="uid://7pawiu03daii" path="res://scenes/objets/coeurs.tscn" id="3_gaydk"]
+[ext_resource type="PackedScene" uid="uid://cemsb8kdn88e8" path="res://scenes/objets/sapceship_niv_2.tscn" id="5_hmven"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_xphhe"]
+radius = 76.1183
+
+[node name="niveau2" type="Node2D"]
+script = ExtResource("1_1muh3")
+
+[node name="TileMap" parent="." instance=ExtResource("1_x7h3l")]
+position = Vector2(801, 525)
+
+[node name="sapceship_niv2" parent="." instance=ExtResource("5_hmven")]
+position = Vector2(2597, 378)
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="sapceship_niv2"]
+position = Vector2(-2, -4)
+shape = SubResource("CircleShape2D_xphhe")
+
+[node name="background_niv2" parent="." instance=ExtResource("1_upflr")]
+
+[node name="coeurs" parent="." instance=ExtResource("3_gaydk")]
+position = Vector2(1149, 525)
+
+[node name="coeurs2" parent="." instance=ExtResource("3_gaydk")]
+position = Vector2(1450, 814)
+
+[node name="coeurs3" parent="." instance=ExtResource("3_gaydk")]
+position = Vector2(780, 1014)
+
+[node name="diamant" parent="." instance=ExtResource("3_6aog3")]
+position = Vector2(1208, 382)
+
+[node name="diamant2" parent="." instance=ExtResource("3_6aog3")]
+position = Vector2(1201, 809)
+
+[node name="diamant3" parent="." instance=ExtResource("3_6aog3")]
+position = Vector2(821, 1115)
+
+[node name="diamant4" parent="." instance=ExtResource("3_6aog3")]
+position = Vector2(1995, 1174)
+
+[node name="diamant5" parent="." instance=ExtResource("3_6aog3")]
+position = Vector2(2378, 339)
+
+[connection signal="body_entered" from="sapceship_niv2" to="." method="_on_sapceship_niv_2_body_entered"]
+[connection signal="body_exited" from="sapceship_niv2" to="." method="_on_sapceship_niv_2_body_exited"]

@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://dm3erp5h3ecqa"]
+
+[ext_resource type="Texture2D" uid="uid://btnnl0j15q7h5" path="res://assets/Objets/Nairan - Battlecruiser - Base.png" id="1_ml6oi"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_6g4rn"]
+radius = 60.0
+height = 174.0
+
+[node name="spaceship_niv3" type="Area2D"]
+
+[node name="Nairan-Battlecruiser-Base" type="Sprite2D" parent="."]
+position = Vector2(0, -1)
+scale = Vector2(2, 2)
+texture = ExtResource("1_ml6oi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, -14)
+shape = SubResource("CapsuleShape2D_6g4rn")

@@ -1,0 +1,68 @@
+[gd_scene load_steps=11 format=3 uid="uid://iaijpxo8ubrh"]
+
+[ext_resource type="Script" path="res://scripts/niveau_1.gd" id="1_tci6m"]
+[ext_resource type="PackedScene" uid="uid://cnj7y7flx2kfv" path="res://scenes/niveau1/tilemap.tscn" id="1_ybu2i"]
+[ext_resource type="PackedScene" uid="uid://co5ckvgc3sbyl" path="res://scenes/niveau1/background_niv_1.tscn" id="2_4410n"]
+[ext_resource type="PackedScene" uid="uid://7pawiu03daii" path="res://scenes/objets/coeurs.tscn" id="3_7l17c"]
+[ext_resource type="PackedScene" uid="uid://do0nuxh51d8qm" path="res://scenes/joueur_test.tscn" id="4_8sd1j"]
+[ext_resource type="Script" path="res://scripts/Camera2D.gd" id="5_djd4j"]
+[ext_resource type="PackedScene" uid="uid://b24kwh8kisgj" path="res://scenes/objets/diamant.tscn" id="7_e7eyj"]
+[ext_resource type="PackedScene" uid="uid://dmcxfrkk4gqc1" path="res://scenes/objets/spaceship_niv_1.tscn" id="9_hu7ou"]
+[ext_resource type="Script" path="res://scripts/spaceship_niv_1.gd" id="9_s3knq"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7os3u"]
+radius = 66.9104
+
+[node name="niveau1" type="Node2D"]
+script = ExtResource("1_tci6m")
+
+[node name="tilemap" parent="." instance=ExtResource("1_ybu2i")]
+position = Vector2(306, 349)
+
+[node name="spaceship_niv1" parent="." instance=ExtResource("9_hu7ou")]
+position = Vector2(12029, 771)
+script = ExtResource("9_s3knq")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="spaceship_niv1"]
+position = Vector2(1, 8)
+shape = SubResource("CircleShape2D_7os3u")
+
+[node name="joueur_test" parent="." instance=ExtResource("4_8sd1j")]
+position = Vector2(11258, 721)
+
+[node name="Camera2D" type="Camera2D" parent="joueur_test"]
+position = Vector2(345, -75.9999)
+scale = Vector2(0.7, 0.7)
+zoom = Vector2(1.2, 1.2)
+position_smoothing_enabled = true
+drag_horizontal_enabled = true
+script = ExtResource("5_djd4j")
+
+[node name="background_niv1" parent="." instance=ExtResource("2_4410n")]
+
+[node name="coeurs" parent="." instance=ExtResource("3_7l17c")]
+position = Vector2(1444, 58)
+
+[node name="coeurs2" parent="." instance=ExtResource("3_7l17c")]
+position = Vector2(5992, 423)
+
+[node name="coeurs3" parent="." instance=ExtResource("3_7l17c")]
+position = Vector2(3952, 350)
+
+[node name="diamant" parent="." instance=ExtResource("7_e7eyj")]
+position = Vector2(1360, 59)
+
+[node name="diamant2" parent="." instance=ExtResource("7_e7eyj")]
+position = Vector2(2445, 482)
+
+[node name="diamant3" parent="." instance=ExtResource("7_e7eyj")]
+position = Vector2(4884, 427)
+
+[node name="diamant4" parent="." instance=ExtResource("7_e7eyj")]
+position = Vector2(7024, 366)
+
+[node name="diamant5" parent="." instance=ExtResource("7_e7eyj")]
+position = Vector2(10378, 567)
+
+[connection signal="body_entered" from="spaceship_niv1" to="." method="_on_spaceship_niv_1_body_entered"]
+[connection signal="body_exited" from="spaceship_niv1" to="." method="_on_spaceship_niv_1_body_exited"]

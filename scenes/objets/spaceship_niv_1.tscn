@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dmcxfrkk4gqc1"]
+
+[ext_resource type="Texture2D" uid="uid://djisveo82ako" path="res://assets/Objets/Nairan - Scout - Base.png" id="1_17uph"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_vyu60"]
+radius = 34.0
+height = 68.0
+
+[node name="spaceship_niv1" type="Area2D"]
+
+[node name="Nairan-Scout-Base" type="Sprite2D" parent="."]
+scale = Vector2(3, 3)
+texture = ExtResource("1_17uph")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 7)
+shape = SubResource("CapsuleShape2D_vyu60")

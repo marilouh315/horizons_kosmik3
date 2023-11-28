@@ -1,0 +1,245 @@
+[gd_scene load_steps=2 format=3 uid="uid://cpd7qsu6fiuyr"]
+
+[ext_resource type="Texture2D" uid="uid://bitgf224wotgo" path="res://assets/Backgrounds/bckg_niv3/Pink.png" id="1_h56el"]
+
+[node name="pink_bckg_niv3" type="Node2D"]
+
+[node name="Pink" type="Sprite2D" parent="."]
+position = Vector2(96, 32)
+texture = ExtResource("1_h56el")
+
+[node name="Pink2" type="Sprite2D" parent="."]
+position = Vector2(32, 32)
+texture = ExtResource("1_h56el")
+
+[node name="Pink3" type="Sprite2D" parent="."]
+position = Vector2(160, 32)
+texture = ExtResource("1_h56el")
+
+[node name="Pink4" type="Sprite2D" parent="."]
+position = Vector2(224, 32)
+texture = ExtResource("1_h56el")
+
+[node name="Pink5" type="Sprite2D" parent="."]
+position = Vector2(288, 32)
+texture = ExtResource("1_h56el")
+
+[node name="Pink6" type="Sprite2D" parent="."]
+position = Vector2(352, 32)
+texture = ExtResource("1_h56el")
+
+[node name="Pink7" type="Sprite2D" parent="."]
+position = Vector2(416, 32)
+texture = ExtResource("1_h56el")
+
+[node name="Pink8" type="Sprite2D" parent="."]
+position = Vector2(480, 32)
+texture = ExtResource("1_h56el")
+
+[node name="Pink9" type="Sprite2D" parent="."]
+position = Vector2(544, 32)
+texture = ExtResource("1_h56el")
+
+[node name="Pink10" type="Sprite2D" parent="."]
+position = Vector2(608, 32)
+texture = ExtResource("1_h56el")
+
+[node name="Pink" type="Sprite2D" parent="Pink10"]
+position = Vector2(-512, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink2" type="Sprite2D" parent="Pink10"]
+position = Vector2(-576, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink3" type="Sprite2D" parent="Pink10"]
+position = Vector2(-448, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink4" type="Sprite2D" parent="Pink10"]
+position = Vector2(-384, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink5" type="Sprite2D" parent="Pink10"]
+position = Vector2(-320, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink6" type="Sprite2D" parent="Pink10"]
+position = Vector2(-256, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink7" type="Sprite2D" parent="Pink10"]
+position = Vector2(-192, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink8" type="Sprite2D" parent="Pink10"]
+position = Vector2(-128, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink9" type="Sprite2D" parent="Pink10"]
+position = Vector2(-64, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink10" type="Sprite2D" parent="Pink10"]
+position = Vector2(0, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink" type="Sprite2D" parent="Pink10/Pink10"]
+position = Vector2(-512, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink2" type="Sprite2D" parent="Pink10/Pink10"]
+position = Vector2(-576, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink3" type="Sprite2D" parent="Pink10/Pink10"]
+position = Vector2(-448, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink4" type="Sprite2D" parent="Pink10/Pink10"]
+position = Vector2(-384, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink5" type="Sprite2D" parent="Pink10/Pink10"]
+position = Vector2(-320, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink6" type="Sprite2D" parent="Pink10/Pink10"]
+position = Vector2(-256, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink7" type="Sprite2D" parent="Pink10/Pink10"]
+position = Vector2(-192, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink8" type="Sprite2D" parent="Pink10/Pink10"]
+position = Vector2(-128, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink9" type="Sprite2D" parent="Pink10/Pink10"]
+position = Vector2(-64, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink10" type="Sprite2D" parent="Pink10/Pink10"]
+position = Vector2(0, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink" type="Sprite2D" parent="Pink10/Pink10/Pink10"]
+position = Vector2(-512, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink2" type="Sprite2D" parent="Pink10/Pink10/Pink10"]
+position = Vector2(-576, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink3" type="Sprite2D" parent="Pink10/Pink10/Pink10"]
+position = Vector2(-448, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink4" type="Sprite2D" parent="Pink10/Pink10/Pink10"]
+position = Vector2(-384, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink5" type="Sprite2D" parent="Pink10/Pink10/Pink10"]
+position = Vector2(-320, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink6" type="Sprite2D" parent="Pink10/Pink10/Pink10"]
+position = Vector2(-256, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink7" type="Sprite2D" parent="Pink10/Pink10/Pink10"]
+position = Vector2(-192, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink8" type="Sprite2D" parent="Pink10/Pink10/Pink10"]
+position = Vector2(-128, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink9" type="Sprite2D" parent="Pink10/Pink10/Pink10"]
+position = Vector2(-64, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink10" type="Sprite2D" parent="Pink10/Pink10/Pink10"]
+position = Vector2(0, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink" type="Sprite2D" parent="Pink10/Pink10/Pink10/Pink10"]
+position = Vector2(-512, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink2" type="Sprite2D" parent="Pink10/Pink10/Pink10/Pink10"]
+position = Vector2(-576, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink3" type="Sprite2D" parent="Pink10/Pink10/Pink10/Pink10"]
+position = Vector2(-448, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink4" type="Sprite2D" parent="Pink10/Pink10/Pink10/Pink10"]
+position = Vector2(-384, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink5" type="Sprite2D" parent="Pink10/Pink10/Pink10/Pink10"]
+position = Vector2(-320, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink6" type="Sprite2D" parent="Pink10/Pink10/Pink10/Pink10"]
+position = Vector2(-256, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink7" type="Sprite2D" parent="Pink10/Pink10/Pink10/Pink10"]
+position = Vector2(-192, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink8" type="Sprite2D" parent="Pink10/Pink10/Pink10/Pink10"]
+position = Vector2(-128, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink9" type="Sprite2D" parent="Pink10/Pink10/Pink10/Pink10"]
+position = Vector2(-64, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink10" type="Sprite2D" parent="Pink10/Pink10/Pink10/Pink10"]
+position = Vector2(0, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink" type="Sprite2D" parent="Pink10/Pink10/Pink10/Pink10/Pink10"]
+position = Vector2(-512, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink2" type="Sprite2D" parent="Pink10/Pink10/Pink10/Pink10/Pink10"]
+position = Vector2(-576, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink3" type="Sprite2D" parent="Pink10/Pink10/Pink10/Pink10/Pink10"]
+position = Vector2(-448, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink4" type="Sprite2D" parent="Pink10/Pink10/Pink10/Pink10/Pink10"]
+position = Vector2(-384, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink5" type="Sprite2D" parent="Pink10/Pink10/Pink10/Pink10/Pink10"]
+position = Vector2(-320, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink6" type="Sprite2D" parent="Pink10/Pink10/Pink10/Pink10/Pink10"]
+position = Vector2(-256, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink7" type="Sprite2D" parent="Pink10/Pink10/Pink10/Pink10/Pink10"]
+position = Vector2(-192, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink8" type="Sprite2D" parent="Pink10/Pink10/Pink10/Pink10/Pink10"]
+position = Vector2(-128, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink9" type="Sprite2D" parent="Pink10/Pink10/Pink10/Pink10/Pink10"]
+position = Vector2(-64, 64)
+texture = ExtResource("1_h56el")
+
+[node name="Pink10" type="Sprite2D" parent="Pink10/Pink10/Pink10/Pink10/Pink10"]
+position = Vector2(0, 64)
+texture = ExtResource("1_h56el")

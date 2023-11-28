@@ -1,0 +1,221 @@
+[gd_scene load_steps=2 format=3 uid="uid://co68jsl2uymt8"]
+
+[ext_resource type="Texture2D" uid="uid://q3q4pltfwyxo" path="res://assets/Backgrounds/bckg_niv3/Purple.png" id="1_00pu0"]
+
+[node name="purple_bckg_niv3" type="Node2D"]
+
+[node name="Purple" type="Sprite2D" parent="."]
+position = Vector2(32, 32)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple2" type="Sprite2D" parent="."]
+position = Vector2(96, 32)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple3" type="Sprite2D" parent="."]
+position = Vector2(160, 32)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple4" type="Sprite2D" parent="."]
+position = Vector2(224, 32)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple5" type="Sprite2D" parent="."]
+position = Vector2(288, 32)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple" type="Sprite2D" parent="Purple5"]
+position = Vector2(-256, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple2" type="Sprite2D" parent="Purple5"]
+position = Vector2(-192, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple3" type="Sprite2D" parent="Purple5"]
+position = Vector2(-128, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple4" type="Sprite2D" parent="Purple5"]
+position = Vector2(-64, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple5" type="Sprite2D" parent="Purple5"]
+position = Vector2(0, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple6" type="Sprite2D" parent="Purple5"]
+position = Vector2(64, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple7" type="Sprite2D" parent="Purple5"]
+position = Vector2(128, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple8" type="Sprite2D" parent="Purple5"]
+position = Vector2(192, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple9" type="Sprite2D" parent="Purple5"]
+position = Vector2(256, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple" type="Sprite2D" parent="Purple5/Purple9"]
+position = Vector2(-512, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple2" type="Sprite2D" parent="Purple5/Purple9"]
+position = Vector2(-448, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple3" type="Sprite2D" parent="Purple5/Purple9"]
+position = Vector2(-384, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple4" type="Sprite2D" parent="Purple5/Purple9"]
+position = Vector2(-320, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple5" type="Sprite2D" parent="Purple5/Purple9"]
+position = Vector2(-256, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple6" type="Sprite2D" parent="Purple5/Purple9"]
+position = Vector2(-192, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple7" type="Sprite2D" parent="Purple5/Purple9"]
+position = Vector2(-128, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple8" type="Sprite2D" parent="Purple5/Purple9"]
+position = Vector2(-64, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple9" type="Sprite2D" parent="Purple5/Purple9"]
+position = Vector2(0, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple" type="Sprite2D" parent="Purple5/Purple9/Purple9"]
+position = Vector2(-512, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple2" type="Sprite2D" parent="Purple5/Purple9/Purple9"]
+position = Vector2(-448, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple3" type="Sprite2D" parent="Purple5/Purple9/Purple9"]
+position = Vector2(-384, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple4" type="Sprite2D" parent="Purple5/Purple9/Purple9"]
+position = Vector2(-320, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple5" type="Sprite2D" parent="Purple5/Purple9/Purple9"]
+position = Vector2(-256, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple6" type="Sprite2D" parent="Purple5/Purple9/Purple9"]
+position = Vector2(-192, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple7" type="Sprite2D" parent="Purple5/Purple9/Purple9"]
+position = Vector2(-128, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple8" type="Sprite2D" parent="Purple5/Purple9/Purple9"]
+position = Vector2(-64, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple9" type="Sprite2D" parent="Purple5/Purple9/Purple9"]
+position = Vector2(0, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple" type="Sprite2D" parent="Purple5/Purple9/Purple9/Purple9"]
+position = Vector2(-512, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple2" type="Sprite2D" parent="Purple5/Purple9/Purple9/Purple9"]
+position = Vector2(-448, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple3" type="Sprite2D" parent="Purple5/Purple9/Purple9/Purple9"]
+position = Vector2(-384, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple4" type="Sprite2D" parent="Purple5/Purple9/Purple9/Purple9"]
+position = Vector2(-320, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple5" type="Sprite2D" parent="Purple5/Purple9/Purple9/Purple9"]
+position = Vector2(-256, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple6" type="Sprite2D" parent="Purple5/Purple9/Purple9/Purple9"]
+position = Vector2(-192, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple7" type="Sprite2D" parent="Purple5/Purple9/Purple9/Purple9"]
+position = Vector2(-128, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple8" type="Sprite2D" parent="Purple5/Purple9/Purple9/Purple9"]
+position = Vector2(-64, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple9" type="Sprite2D" parent="Purple5/Purple9/Purple9/Purple9"]
+position = Vector2(0, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple" type="Sprite2D" parent="Purple5/Purple9/Purple9/Purple9/Purple9"]
+position = Vector2(-512, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple2" type="Sprite2D" parent="Purple5/Purple9/Purple9/Purple9/Purple9"]
+position = Vector2(-448, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple3" type="Sprite2D" parent="Purple5/Purple9/Purple9/Purple9/Purple9"]
+position = Vector2(-384, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple4" type="Sprite2D" parent="Purple5/Purple9/Purple9/Purple9/Purple9"]
+position = Vector2(-320, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple5" type="Sprite2D" parent="Purple5/Purple9/Purple9/Purple9/Purple9"]
+position = Vector2(-256, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple6" type="Sprite2D" parent="Purple5/Purple9/Purple9/Purple9/Purple9"]
+position = Vector2(-192, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple7" type="Sprite2D" parent="Purple5/Purple9/Purple9/Purple9/Purple9"]
+position = Vector2(-128, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple8" type="Sprite2D" parent="Purple5/Purple9/Purple9/Purple9/Purple9"]
+position = Vector2(-64, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple9" type="Sprite2D" parent="Purple5/Purple9/Purple9/Purple9/Purple9"]
+position = Vector2(0, 64)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple6" type="Sprite2D" parent="."]
+position = Vector2(352, 32)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple7" type="Sprite2D" parent="."]
+position = Vector2(416, 32)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple8" type="Sprite2D" parent="."]
+position = Vector2(480, 32)
+texture = ExtResource("1_00pu0")
+
+[node name="Purple9" type="Sprite2D" parent="."]
+position = Vector2(544, 32)
+texture = ExtResource("1_00pu0")

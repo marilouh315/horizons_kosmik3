@@ -1,0 +1,91 @@
+[gd_scene load_steps=5 format=3 uid="uid://715v538axgnl"]
+
+[ext_resource type="Script" path="res://scripts/tutoriel.gd" id="1_i17nl"]
+[ext_resource type="PackedScene" uid="uid://d014vgxvr7gof" path="res://scenes/ui/space_bckg.tscn" id="1_otg74"]
+[ext_resource type="FontFile" uid="uid://3d0ky5eghpsr" path="res://assets/fonts/ModernWarfare-OV7KP.ttf" id="2_mcqjq"]
+[ext_resource type="PackedScene" uid="uid://dalsnnlrqqb5q" path="res://scenes/ui/joueur_ui.tscn" id="3_vtqis"]
+
+[node name="tutoriel" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_i17nl")
+
+[node name="space_bckg" parent="." instance=ExtResource("1_otg74")]
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 314.0
+offset_top = 55.0
+offset_right = 791.0
+offset_bottom = 185.0
+theme_override_fonts/font = ExtResource("2_mcqjq")
+theme_override_font_sizes/font_size = 50
+text = "Controles"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 2
+offset_left = 506.0
+offset_top = 501.0
+offset_right = 656.0
+offset_bottom = 547.0
+theme_override_fonts/font = ExtResource("2_mcqjq")
+theme_override_font_sizes/font_size = 20
+text = "Retour"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 346.0
+offset_top = 133.0
+offset_right = 798.0
+offset_bottom = 462.0
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "Droite: D"
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "Gauche: A"
+horizontal_alignment = 1
+
+[node name="Label3" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "Haut: W"
+horizontal_alignment = 1
+
+[node name="Label4" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "Sauter: Espace"
+horizontal_alignment = 1
+
+[node name="Label5" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "Double-saut: 2x Espace"
+horizontal_alignment = 1
+
+[node name="Label6" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "Tirer: Clique gauche (souris)"
+horizontal_alignment = 1
+
+[node name="joueur_ui" parent="." instance=ExtResource("3_vtqis")]
+position = Vector2(241, 282)
+
+[node name="joueur_ui2" parent="." instance=ExtResource("3_vtqis")]
+position = Vector2(933, 275)
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

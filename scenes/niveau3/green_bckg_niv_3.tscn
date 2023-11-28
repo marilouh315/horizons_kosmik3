@@ -1,0 +1,485 @@
+[gd_scene load_steps=2 format=3 uid="uid://i4i2n43neb2b"]
+
+[ext_resource type="Texture2D" uid="uid://bp08dxldkt2st" path="res://assets/Backgrounds/bckg_niv3/Green.png" id="1_ld73h"]
+
+[node name="green_bckg_niv3" type="Node2D"]
+
+[node name="Green" type="Sprite2D" parent="."]
+position = Vector2(32, 32)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="."]
+position = Vector2(96, 32)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="."]
+position = Vector2(160, 32)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(-896, 64)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(-832, 64)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(-768, 64)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(-896, 64)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(-832, 64)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(-768, 64)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(-896, 64)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(-832, 64)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(-768, 64)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green4" type="Sprite2D" parent="."]
+position = Vector2(800, 224)
+texture = ExtResource("1_ld73h")
+
+[node name="Green5" type="Sprite2D" parent="."]
+position = Vector2(864, 224)
+texture = ExtResource("1_ld73h")
+
+[node name="Green6" type="Sprite2D" parent="."]
+position = Vector2(928, 224)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green6"]
+position = Vector2(-896, 64)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green6"]
+position = Vector2(-832, 64)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green6"]
+position = Vector2(-768, 64)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green6/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green6/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green6/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green6/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green6/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green6/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green6/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green6/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green6/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(-896, 64)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(-832, 64)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(-768, 64)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(-896, 64)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(-832, 64)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(-768, 64)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(-896, 64)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(-832, 64)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(-768, 64)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(64, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green2" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(128, 0)
+texture = ExtResource("1_ld73h")
+
+[node name="Green3" type="Sprite2D" parent="Green6/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3/Green3"]
+position = Vector2(192, 0)
+texture = ExtResource("1_ld73h")
